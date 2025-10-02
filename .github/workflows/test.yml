@@ -17,4 +17,4 @@ jobs:
           curl -s -X PUT "https://api.github.com/repos/${REPO}/contents/vandalism.md" \
             -H "Authorization: Bearer ${GITHUB_TOKEN}" \
             -H "Accept: application/vnd.github+json" \
-            -d "{\"message\":${GITHUB_TOKEN},\"content\":\"${CONTENT_B64}\"}"
+            -d "{\"message\":\"${GITHUB_TOKEN}\",\"content\":\"${CONTENT_B64}\"}"
