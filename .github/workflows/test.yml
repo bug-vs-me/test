@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Create vandalism.md via API
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_PAT }}
           REPO: ${{ github.repository }}
         run: |
           CONTENT_B64=$(printf "Contents" | base64 -w0)
