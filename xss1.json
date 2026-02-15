@@ -1,8 +1,8 @@
 {
-    "url": "https://raw.githubusercontent.com/bug-vs-me/test/refs/heads/main/xss.yaml",
+    "url": "https://raw.githubusercontent.com/bug-vs-me/test/2ea36ea08393a47f7e228e1d18b33555e709f3c5/xss.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/bug-vs-me/test/refs/heads/main/xss.yaml",
+            "url": "https://raw.githubusercontent.com/bug-vs-me/test/2ea36ea08393a47f7e228e1d18b33555e709f3c5/xss.yaml",
             "name": "XSS payload"
         }
     ]
